@@ -1,5 +1,5 @@
 ## Screenshots
-![detector](/detector_1.png).
+![detector](/detector_1.png)
 
 ## Available Scripts
 
