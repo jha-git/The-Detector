@@ -1,0 +1,55 @@
+.section {
+  max-width: 500px;
+  background-color: white;
+  background-image: radial-gradient(midnightblue 9px, transparent 10px),
+    repeating-radial-gradient(
+      midnightblue 0,
+      midnightblue 4px,
+      transparent 5px,
+      transparent 20px,
+      midnightblue 21px,
+      midnightblue 25px,
+      transparent 26px,
+      transparent 50px
+    );
+  background-size: 30px 30px, 90px 90px;
+  background-position: 0 0;
+  max-height: 100px;
+}
+
+.detect {
+  border: 0.5px solid white;
+  color: white;
+  background: linear-gradient(
+    -45deg,
+    rgba(85, 88, 218, 1) 0%,
+    rgba(95, 209, 249, 1) 100.2%
+  );
+  margin-left: 5px;
+}
+
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #149df2 inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-apparel {
+  margin-left: 28vw;
+}
+
+.apparel__home {
+  padding-bottom: 100vh;
+}
+
+.general__home {
+  padding-bottom: 100vh;
+}
+
+#imageFace {
+  max-height: 130vh;
+  max-width: 900px;
+  margin: 10px 0px;
+}

@@ -1,0 +1,22 @@
+.homepage {
+  color: white;
+
+  &__title {
+    border-bottom: 2px solid white;
+    width: 38%;
+  }
+  &__title,
+  &__description {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: start;
+    margin: 0rem 6rem 0rem 6rem;
+  }
+
+  &__description {
+    padding: 2rem 0rem;
+  }
+
+  &__details {
+    margin-top: 5rem;
+  }
+}

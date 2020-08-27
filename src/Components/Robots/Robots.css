@@ -1,0 +1,61 @@
+.robots {
+  min-height: 93vh;
+}
+h3 {
+  text-transform: uppercase;
+}
+
+.font {
+  font-family: "Knewave", cursive;
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.sprofile {
+  background-color: #21d4fd;
+  background-image: linear-gradient(45deg, #21d4fd 0%, #216cff 100%);
+}
+.sprofile:hover {
+  background-image: linear-gradient(90deg, #21d4fd 0%, #216cff 100%);
+}
+
+.fix {
+  border: 2px solid white;
+  opacity: 0.95;
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #21d4fd;
+  background-image: linear-gradient(45deg, #21d4fd 0%, #216cff 100%);
+  padding-bottom: 10px;
+  margin-right: 0;
+}
+.form {
+  background-color: #21d4fd;
+  background-image: linear-gradient(45deg, #21d4fd 0%, #216cff 100%);
+}
+.particles {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+.topBar {
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #0cebeb 0%,
+    #20e3b2 51%,
+    #0cebeb 100%
+  );
+}
+.btn-grad:hover {
+  background-position: right center;
+}

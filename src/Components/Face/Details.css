@@ -1,0 +1,20 @@
+.details {
+  height: 420px;
+  width: 350px;
+  z-index: 1000;
+  border: 2px solid white;
+  border-radius: 10px;
+
+  color: white;
+  margin-left: 10px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.main-item:not(:last-child) {
+  border-bottom: 2px solid white;
+}
