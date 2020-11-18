@@ -1,6 +1,4 @@
 import React from "react";
-//import Tilt from 'react-tilt';
-
 const Title = () => {
   return (
     <div className="Tilt-inner">

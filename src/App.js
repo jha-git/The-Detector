@@ -131,16 +131,6 @@ class App extends Component {
   render() {
     return (
       <div className="App ">
-        {/*<Particles className='particles' params={params}/>
-        <Switch>
-          <Route exact path='/' component={}/>
-          <Route path='/signin' component={}/>
-          <Route path='/register' component={}/>
-          <Route path='/apparel' component={}/>
-          <Route path='/general' component={}/>
-          <Route path='/robots' component={}/>
-        </Switch>  
-    */}
         <Particles className="particles" params={params} />
         {this.state.route === "demography" ? (
           <div>

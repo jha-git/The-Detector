@@ -8,7 +8,6 @@ const BoxList = ({ boxes, height, width }) => {
         key={i}
         clari={boxes[i].region_info.bounding_box}
         name={boxes[i].data.concepts[0].name}
-        //pre_value={boxes[i].data.concepts[0].value}
         height={height}
         width={width}
       />

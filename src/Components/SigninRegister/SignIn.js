@@ -44,13 +44,6 @@ class SignIn extends React.Component {
       .catch((err) => {
         console.log("Error!");
       });
-
-    /*.then(user=>{
-			if(user.id){
-				this.props.onLoadUser(user);
-				this.props.onRouteChange('home');
-			}
-		})*/
   };
 
   render() {

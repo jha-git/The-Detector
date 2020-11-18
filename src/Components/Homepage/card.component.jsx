@@ -31,20 +31,3 @@ class Card extends React.Component {
 }
 
 export default Card;
-
-// const Card =({title,imageUrl,description, route,...otherStateProps})=>(
-//     <div className='card' onClick={()=>{this.props.onRouteChange(route)}} >
-//         <div className='card__imagebox'>
-
-//             <img src={imageUrl} alt='phones'/>
-//             <div className='card__title'>
-//                 <h4> {title}  </h4>
-//             </div>
-//         </div>
-
-//         <div className='card__details'>
-//             <p>{description}</p>
-//         </div>
-//     </div>
-
-//     );

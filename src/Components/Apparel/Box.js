@@ -12,7 +12,6 @@ const Box = ({ clari, height, width, name, pre_value }) => {
       style={{ top: topRow, right: rightCol, bottom: bottomRow, left: leftCol }}
     >
       <span className="corner-name">{name}</span>
-      {/*<span className='corner-prediction'>{pre_value}</span>*/}
     </div>
   );
 };
